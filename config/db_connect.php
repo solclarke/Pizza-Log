@@ -1,7 +1,7 @@
 <?php 
 
     // connect to database - (host, username, password, database name)
-    // $connection = mysqli_connect("localhost", "username", "password", "database name");
+    $connection = mysqli_connect("localhost", "username", "password", "database name");
 
 
     // check database connection
