@@ -1,0 +1,222 @@
+/* Globals */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #494B48;
+}
+
+a {
+    text-decoration: none;
+    color: #494B48;
+}
+
+footer {
+    margin: 10% auto 5%;
+}
+footer p {
+    font-size: 0.9rem;
+}
+footer p:hover {
+    color: black;
+    font-weight: 900;
+}
+
+ul {
+    padding: 0;
+}
+
+/* Colours */
+.grey {
+    background-color: #EEEEF0;
+}
+.white {
+    background-color: white;
+}
+.red-text {
+    color: red;
+}
+.brand-text {
+    color: #CBB09C;
+}
+.brand {
+    background: #CBB09C;
+}
+
+
+/* Text */
+h1 {
+    font-size: 2.2rem;
+    line-height: 60px;
+}
+
+.index-h1 {
+    padding: 0 25%;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+/* Buttons */
+.btn {
+    padding: 10px;
+}
+.submit-delete {
+    padding: 10px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+.submit-delete:hover {
+    background-color: #A99280;
+}
+
+/* Navbar */
+nav ul{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+}
+
+nav {
+    font-size: 2rem;
+}
+
+nav a {
+    color: black;
+    margin: auto 10vw;
+    border-radius: 5px;
+}
+
+.brand-logo {
+    font-weight: 900;
+}
+
+/* Homepage */
+.pizza-img {
+    width: 250px;
+    margin: 70px auto -60px;
+    display: block;
+    position: relative;
+    top: -60px;
+}
+.pizza-content li {
+    list-style: none;
+}
+.pizzas {
+    margin-bottom: 20px;
+}
+.more-info {
+    text-align: right;
+    padding: 10px 30px 20px;
+    font-size: 1.2rem;
+}
+.more-info a:hover {
+    color: #A99280;
+    font-weight: bold;
+}
+.index-container {
+    padding: 0 30%;
+}
+
+
+
+/* Add */
+.form-item {
+    margin-bottom: 20px;
+}
+.add-form {
+    padding: 50px;
+}
+input[type=text] {
+    display: block;
+    margin: 7px auto 0;
+    font-size: 18px;
+    padding: 10px;
+    width: 300px;
+}
+.add-container {
+    padding: 0 20%;
+}
+
+/* Media Queries */
+@media (max-width: 1100px) {
+    .index-container, .index-h1 {
+        padding: 0 20%;
+    }
+    .add-container {
+        padding: 0 15%;
+    }
+}
+@media (max-width: 650px) {
+    nav a {
+        margin: auto 5vw;
+    }
+
+    .index-container, .index-h1 {
+        padding: 0 15%;
+    }
+
+    .more-info {
+        padding: 10px 20px 20px;
+    }
+
+    input[type=text] {
+        font-size: 15px;
+    }
+
+    .add-form {
+        padding: 30px;
+    }
+    .add-container {
+        padding: 0 10%;
+    }
+}
+
+@media (max-width: 485px) {
+    nav {
+        font-size: 1.5rem;
+    }
+    
+    h1 {
+        font-size: 1.8rem;
+        line-height: 45px;
+    }
+
+    .index-container, .index-h1 {
+        padding: 0 7%;
+    }
+
+    .add-container {
+        padding: 0 7%;
+    }
+
+    input[type=text] {
+        width: 270px;
+    }
+}
+@media (max-width: 400px) {
+    .add-form {
+        padding: 20px 10px;
+    }
+
+    input[type=text] {
+        width: 250px;
+    }
+
+    nav a {
+        margin: auto 2vw;
+    }
+}
+
+@media (max-width: 350px) {
+    input[type=text] {
+        width: 220px;
+    }
+    h1 {
+        font-size: 1.6rem;
+    }
+}
